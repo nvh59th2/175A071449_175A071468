@@ -2,6 +2,10 @@
     display: flex;
   
 }
+.logo-search .search-lang
+{
+    float: right;
+}
 .logo-search .search-lang .lang ul li{
  list-style: none;
  padding-left: 10px;
@@ -14,19 +18,29 @@
 .logo-search{
     margin-bottom:20px ;
 }
-.menu .title
+footer .title
 {
 height: 40px;
 }
-.menu .title ul
+footer .title .menu 
+{
+    padding: 7px;
+}
+footer .title ul
 {
     justify-content: space-around;
     list-style: none;
     display: flex;
     padding: 0;
 }
-.menu .title ul li a{
+footer .title ul li a{
     color: white;
+    text-decoration: none;
+
+}
+.footer .title ul li a:hover
+{
+    color: cornflowerblue;
 }
 .dnn-content ul
 {
@@ -39,6 +53,10 @@ height: 40px;
     padding-left: 50px;
     text-align: center;
 
+}
+footer
+{
+    background-color: #132685;
 }
 .dnn-content ul li p{
     padding-top:10px ;
