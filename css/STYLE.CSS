@@ -184,3 +184,19 @@ padding: 3px;
     margin-left: 20px;
 }
 
+
+/* css thong bao va tin tức*/
+
+main .tb_tt_content ul
+{
+    list-style: none;
+    
+}
+main h2{
+    text-align: center;
+    
+}
+main .tb_tt_content ul li a{
+    text-decoration: none;
+    display: block;
+}
