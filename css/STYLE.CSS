@@ -201,3 +201,12 @@ main .tb_tt_content ul li a{
     display: block;
 }
 /*css tuyen sinh*/
+body .location{
+    margin: 2px 0 0 0;
+    height: 32px;
+    background-color: #394a9e;
+
+}
+main .content-right ul,main .content-left ul{
+    list-style: none;
+}
