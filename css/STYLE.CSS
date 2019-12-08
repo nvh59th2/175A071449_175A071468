@@ -207,6 +207,61 @@ body .location{
     background-color: #394a9e;
 
 }
-main .content-right ul,main .content-left ul{
+main .content-right  ul li
+{
+    text-decoration: none;
+    padding: 5px 7px;
+    border-width:0px 0px 1px ;
+}
+.content-right ul li{
+    color: rgb(199, 197, 197);
+}
+main .content-right ul{
     list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+main .title a{
+    text-decoration: none;
+}
+main .title{
+    font-size:24px;
+    line-height: 48px;
+    color: rgb(29, 29, 231);
+    margin-top: 40px;
+}
+.content-right ul li
+{
+    list-style: none;
+}
+main .content-left ul{
+    list-style: none;
+}
+.content-left a{
+    display: block;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+.nav-left p{
+    float: right;
+    
+}
+.left-block .nav-left a
+{
+    text-decoration: none;
+}
+.content-left .left-block span{
+    display: block;
+}
+.content-left .left-block
+{
+    border-bottom: 1px solid black;
+    margin-top:40px ;
+}
+
+/*Lien he*/
+.lienhe
+{
+    margin:40px 0 30px 0;
 }
